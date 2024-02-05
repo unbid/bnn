@@ -43,6 +43,17 @@ var notizieRouter = require('./routes/notizie');
 var notizieCollaboratoriRouter = require('./routes/notiziecollaboratori');
 var loginRouter = require('./routes/login');
 
+var notizia1Router = require('./routes/notizia1');
+var notizia2Router = require('./routes/notizia2');
+var notizia3Router = require('./routes/notizia3');
+var notizia4Router = require('./routes/notizia4');
+var notizia5Router = require('./routes/notizia5');
+var notizia6Router = require('./routes/notizia6');
+var notizia7Router = require('./routes/notizia7');
+var notizia8Router = require('./routes/notizia8');
+var notizia9Router = require('./routes/notizia9');
+var notizia10Router = require('./routes/notizia10');
+
 let app = express();
 
 // set up the session
@@ -77,6 +88,17 @@ app.use('/unipolrentalCollaboratori', unipolRentalCollaboratoriRouter);
 app.use('/notizie', notizieRouter);
 app.use('/notizieCollaboratori', notizieCollaboratoriRouter);
 app.use('/loginCollaboratori', loginRouter);
+
+app.use('/notizia1', notizia1Router);
+app.use('/notizia2', notizia2Router);
+app.use('/notizia3', notizia3Router);
+app.use('/notizia4', notizia4Router);
+app.use('/notizia5', notizia5Router);
+app.use('/notizia6', notizia6Router);
+app.use('/notizia7', notizia7Router);
+app.use('/notizia8', notizia8Router);
+app.use('/notizia9', notizia9Router);
+app.use('/notizia10', notizia10Router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
