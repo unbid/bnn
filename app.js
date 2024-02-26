@@ -53,6 +53,7 @@ var notizia7Router = require('./routes/notizia7');
 var notizia8Router = require('./routes/notizia8');
 var notizia9Router = require('./routes/notizia9');
 var notizia10Router = require('./routes/notizia10');
+var notizia11Router = require('./routes/notizia11');
 
 let app = express();
 
@@ -99,6 +100,7 @@ app.use('/notizia7', notizia7Router);
 app.use('/notizia8', notizia8Router);
 app.use('/notizia9', notizia9Router);
 app.use('/notizia10', notizia10Router);
+app.use('/notizia11', notizia11Router);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
