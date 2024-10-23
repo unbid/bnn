@@ -42,6 +42,7 @@ var unipolRentalCollaboratoriRouter = require('./routes/unipolrentalcollaborator
 var notizieRouter = require('./routes/notizie');
 var notizieCollaboratoriRouter = require('./routes/notiziecollaboratori');
 var loginRouter = require('./routes/login');
+var PAIRouter = require('./routes/PAI');
 
 var notizia1Router = require('./routes/notizia1');
 var notizia2Router = require('./routes/notizia2');
@@ -96,6 +97,7 @@ app.use('/unipolrentalCollaboratori', unipolRentalCollaboratoriRouter);
 app.use('/notizie', notizieRouter);
 app.use('/notizieCollaboratori', notizieCollaboratoriRouter);
 app.use('/loginCollaboratori', loginRouter);
+app.use('/PAI', PAIRouter);
 
 app.use('/notizia1', notizia1Router);
 app.use('/notizia2', notizia2Router);
