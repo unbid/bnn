@@ -76,6 +76,7 @@ var notizia27Router = require('./routes/notizia27');
 var notizia28Router = require('./routes/notizia28');
 var notizia29Router = require('./routes/notizia29');
 var notizia30Router = require('./routes/notizia30');
+var notizia31Router = require('./routes/notizia31');
 
 
 
@@ -147,6 +148,7 @@ app.use('/notizia27', notizia27Router);
 app.use('/notizia28', notizia28Router);
 app.use('/notizia29', notizia29Router);
 app.use('/notizia30', notizia30Router);
+app.use('/notizia31', notizia31Router);
 
 
 // catch 404 and forward to error handler
