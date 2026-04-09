@@ -77,6 +77,9 @@ var notizia28Router = require('./routes/notizia28');
 var notizia29Router = require('./routes/notizia29');
 var notizia30Router = require('./routes/notizia30');
 var notizia31Router = require('./routes/notizia31');
+var notizia32Router = require('./routes/notizia32');
+var notizia33Router = require('./routes/notizia33');
+var notizia34Router = require('./routes/notizia34');
 
 
 
@@ -149,6 +152,9 @@ app.use('/notizia28', notizia28Router);
 app.use('/notizia29', notizia29Router);
 app.use('/notizia30', notizia30Router);
 app.use('/notizia31', notizia31Router);
+app.use('/notizia32', notizia32Router);
+app.use('/notizia33', notizia33Router);
+app.use('/notizia34', notizia34Router);
 
 
 // catch 404 and forward to error handler
